@@ -1,2 +1,4 @@
-idf_component_register(SRCS "m5core2-arduino.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(
+  SRCS "main.cpp"
+  INCLUDE_DIRS "."
+)
